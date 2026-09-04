@@ -3,7 +3,10 @@
 Google Colab
 ------------
 1. Upload or clone this folder to ``/content/Puma-Update``.
-2. Put data on Google Drive under the shared RMT_Update folder (see ``paths.py``).
+2. Put data on Google Drive under::
+
+       /content/drive/Shareddrives/FA Ops Europe: Rate Maintenance Team /Documents/AI Adoption RMT/RMT_Puma/RMT_Update
+
 3. Run::
 
        import os
@@ -12,7 +15,7 @@ Google Colab
    Optional: set a custom data folder before running::
 
        import os
-       os.environ["PUMA_UPDATE_DATA_ROOT"] = "/content/drive/Shareddrives/.../RMT_Update"
+       os.environ["PUMA_UPDATE_DATA_ROOT"] = "/content/drive/Shareddrives/FA Ops Europe: Rate Maintenance Team /Documents/AI Adoption RMT/RMT_Puma/RMT_Update"
        exec(open("/content/Puma-Update/run_pipeline.py").read())
 
 Local machine
