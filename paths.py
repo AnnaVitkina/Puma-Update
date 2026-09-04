@@ -17,7 +17,7 @@ def in_colab() -> bool:
 
 CODE_DIR = Path(__file__).resolve().parent
 
-SHARED_DRIVE_ROOT = Path("/content/drive/Shareddrives/FA Ops Europe: Rate Maintenance Team")
+SHARED_DRIVE_ROOT = Path("/content/drive/Shareddrives/FA Ops Europe: Rate Maintenance Team ")
 
 DEFAULT_COLAB_DATA_ROOT = (
     SHARED_DRIVE_ROOT / "Documents/AI Adoption RMT/RMT_Puma/RMT_Update"
