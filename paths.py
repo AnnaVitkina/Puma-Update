@@ -20,7 +20,7 @@ CODE_DIR = Path(__file__).resolve().parent
 DEFAULT_COLAB_DATA_ROOT = Path("/content/drive/Shareddrives/FA Ops Europe: Rate Maintenance Team /Documents/AI Adoption RMT/RMT_Puma/RMT_Update")
 
 # Alternate layout without trailing space on the shared-drive folder name.
-LEGACY_COLAB_DATA_ROOT = Path("/content/drive/Shareddrives/FA Ops Europe: Rate Maintenance Team/Documents/AI Adoption RMT/RMT_Puma/RMT_Update")
+LEGACY_COLAB_DATA_ROOT = Path("/content/drive/Shareddrives/FA Ops Europe: Rate Maintenance Team /Documents/AI Adoption RMT/RMT_Puma/RMT_Update")
 
 PREVIOUS_RA_SUBDIR = "previous RA"
 UPDATE_SUBDIR = "update"
